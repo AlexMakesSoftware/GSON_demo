@@ -12,10 +12,7 @@ import com.google.gson.GsonBuilder;
 
 import org.apache.commons.io.FileUtils;
 
-/**
- * Hello world!
- *
- */
+/** Create a bunch of objects, seriailise them to gson and then read them back in again. */
 public class App 
 {
     private static File filename = Paths.get("target","output.json").toFile();
